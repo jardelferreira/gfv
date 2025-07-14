@@ -14,8 +14,8 @@ const CONFIG = {
         META: "metadados"
     },
     URLS: {
-        LOCAL_JSON: "localidades.json",
-        LOCAL_ROTAS: "rotas_editadas_2.json",
+        LOCAL_JSON: "https://cdn.jsdelivr.net/gh/jardelferreira/gfv@main/localidades.json",
+        LOCAL_ROTAS: "https://cdn.jsdelivr.net/gh/jardelferreira/gfv@main/rotas_editadas_2.json",
         REMOTE_CSV: "https://script.google.com/macros/s/AKfycbzXuUIkcbuM9ryesRTg5ofVtSQFFLAr31QTUjDW0JPYSFd15TVPhKhk0omwsGfcNpHo/exec",
         ADICIONAIS: "adicionais.json"
     },
