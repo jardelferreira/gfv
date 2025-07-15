@@ -726,12 +726,12 @@ class AppMobilidade {
             }
 
             // Desregistrar service workers
-            if ('serviceWorker' in navigator) {
-                const registrations = await navigator.serviceWorker.getRegistrations();
-                for (const registration of registrations) {
-                    await registration.unregister();
-                }
-            }
+            // if ('serviceWorker' in navigator) {
+            //     const registrations = await navigator.serviceWorker.getRegistrations();
+            //     for (const registration of registrations) {
+            //         await registration.unregister();
+            //     }
+            // }
 
             UIManager.mostrarToast("✅ Dados limpos com sucesso!", 'success');
 
