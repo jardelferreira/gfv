@@ -734,12 +734,15 @@ class AppMobilidade {
             // }
 
             UIManager.mostrarToast("✅ Dados limpos com sucesso!", 'success');
-
+            
             setTimeout(() => {
                 window.location.reload();
             }, 2000);
 
         } catch (error) {
+            document.querySelector('body').append(`
+                <h1>Erro ao executar tarela", '${error}')</h1>
+                `)
             console.error('Erro ao limpar PWA:', error);
             UIManager.mostrarToast("❌ Erro ao limpar dados", 'error');
         }
