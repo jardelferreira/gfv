@@ -6,6 +6,7 @@
 
 // ===== CONFIGURAÇÕES E CONSTANTES =====
 const CONFIG = {
+    APP_NAME:"gfv",
     DB_NAME: "gfv_mobilidadeDB",
     DB_VERSION: 2,
     STORES: {
@@ -116,7 +117,7 @@ class Utils {
 // ===== GERENCIADOR DE TEMAS =====
 class ThemeManager {
     constructor() {
-        this.storageKey = 'mobilidade-theme';
+        this.storageKey = `${CONFIG.APP_NAME}-mobilidade-theme`;
         this.defaultTheme = 'default';
         this.availableThemes = ['default', 'dark', 'blue', 'green', 'purple', 'orange', 'red', 'pink', 'yellow', 'gray'];
     }
