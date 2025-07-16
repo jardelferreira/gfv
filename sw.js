@@ -1,14 +1,14 @@
 const CACHE_NAME = "pwa-tabela-v2";
 const urlsToCache = [
   "./",
-  "./index.html",
-  "./manifest.json",
-  "./icon-192.png",
-  "./icon-512.png",
-  "./styles.css",
-  "./spinner.png",
-  "./operacoes.js",
-  "./script.js",
+  "https://jardelferreira.github.io/cincoestrelas/index.html",
+  "https://jardelferreira.github.io/cincoestrelas/manifest.json",
+  "https://jardelferreira.github.io/cincoestrelas/icon-192.png",
+  "https://jardelferreira.github.io/cincoestrelas/icon-512.png",
+  "https://jardelferreira.github.io/cincoestrelas/styles.css",
+  "https://jardelferreira.github.io/cincoestrelas/spinner.png",
+  "https://jardelferreira.github.io/cincoestrelas/operacoes.js",
+  "https://jardelferreira.github.io/cincoestrelas/script.js",
 ];
 
 self.addEventListener("install", event => {

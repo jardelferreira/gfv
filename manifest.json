@@ -1,9 +1,9 @@
 {
   "name": "Calculadora de Viagens",
   "short_name": "GFV +",
-  "version": "1.0",
+  "version": "2.1",
   "description": "Calculadora de Viagens",
-  "start_url": ".",
+  "start_url": "https://jardelferreira.github.io/gfv/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#EC2C04",
