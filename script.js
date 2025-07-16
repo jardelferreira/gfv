@@ -6,7 +6,7 @@
 
 // ===== CONFIGURAÇÕES E CONSTANTES =====
 const CONFIG = {
-    DB_NAME: "mobilidadeDB",
+    DB_NAME: "gfv_mobilidadeDB",
     DB_VERSION: 2,
     STORES: {
         LOCALIDADES: "localidades",
